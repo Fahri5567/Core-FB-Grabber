@@ -1,0 +1,25 @@
+{
+  "name": "core-fb-grabber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "fb": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha src/grab.test.js --no-timeouts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fahri5567/Core-FB-Grabber.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fahri5567/Core-FB-Grabber/issues"
+  },
+  "homepage": "https://github.com/Fahri5567/Core-FB-Grabber#readme"
+}
