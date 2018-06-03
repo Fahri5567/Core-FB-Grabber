@@ -1,7 +1,7 @@
 {
   "name": "core-fb-grabber",
   "version": "1.0.0",
-  "description": "",
+  "description": "Core Facebook Grabber",
   "main": "index.js",
   "dependencies": {
     "fb": "^2.0.0"
@@ -16,8 +16,8 @@
     "type": "git",
     "url": "git+https://github.com/Fahri5567/Core-FB-Grabber.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Mas Fahri <fahri372a@gmail.com> (http://mas-fahri.com/)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Fahri5567/Core-FB-Grabber/issues"
   },
