@@ -89,6 +89,7 @@ class Grab {
 
     // default option
     const { token, filter = {}, option = {} } = options;
+    option.locale = 'en_US';
 
     // set default fields to array if fields not array
     if (false === Array.isArray(option.fields)) {
@@ -140,6 +141,7 @@ class Grab {
 
     // default option
     const { token, filter = {}, option = {} } = options;
+    option.locale = 'en_US';
 
     // set default fields to array if fields not array
     if (false === Array.isArray(option.fields)) {

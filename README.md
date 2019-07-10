@@ -5,8 +5,8 @@ This repo used by fb-grabber
 
 ### Simple usage
 ```
-const Grab = require('core-fb-grabber')
-    grab = new Grab('EAAxx') // your access token
+const Grab = require('core-fb-grabber'),
+    grab = new Grab('EAAxx'); // your access token
 
 // run grab all user
 grab.user('userID', (error, response) => {
@@ -19,8 +19,8 @@ grab.user('userID', (error, response) => {
 
 ### Multiple filter country usage
 ```
-const Grab = require('core-fb-grabber')
-    grab = new Grab('EAAxx') // your access token
+const Grab = require('core-fb-grabber'),
+    grab = new Grab('EAAxx'); // your access token
 
 // run grab user by country ID AND MY, gender famele
 grab.user('userID', {
@@ -38,8 +38,8 @@ grab.user('userID', {
 
 ### Advance usage
 ```
-const Grab = require('core-fb-grabber')
-    grab = new Grab('EAAxx') // your access token
+const Grab = require('core-fb-grabber'),
+    grab = new Grab('EAAxx'); // your access token
 
 // run grab all user form country indonesia
 grab.user('userID', {
