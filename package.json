@@ -1,6 +1,6 @@
 {
   "name": "core-fb-grabber",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Core Facebook Grabber",
   "main": "index.js",
   "dependencies": {
